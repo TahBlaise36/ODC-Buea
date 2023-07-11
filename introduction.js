@@ -50,3 +50,18 @@ Here is another comment
 // decrement--;
 // decrement-=1;
 // console.log(increment, decrement);
+
+/** Working on strings */
+
+// var initialVariable = "Mr Nde said 'Hello to you guys'"
+// initialVariable = `Mr Nde said "I'm a plug"`
+// initialVariable = `Mr Nde said \\ I'm a plug`
+// initialVariable = "Hello " + "world"
+
+// console.log(initialVariable);
+
+var string = "Hello world"
+// string[2] = "d"  strings are unmutable
+
+// console.log(string[2]);
+console.log(string.length);
