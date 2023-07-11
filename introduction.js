@@ -57,11 +57,39 @@ Here is another comment
 // initialVariable = `Mr Nde said "I'm a plug"`
 // initialVariable = `Mr Nde said \\ I'm a plug`
 // initialVariable = "Hello " + "world"
-
+// 
 // console.log(initialVariable);
+// 
+// var string = "Hello world"
+// // string[2] = "d"  strings are unmutable
+// 
+// // console.log(string[2]);
+// console.log(string.length);
 
-var string = "Hello world"
-// string[2] = "d"  strings are unmutable
+/** Working on Arrays */
 
-// console.log(string[2]);
-console.log(string.length);
+// var variable = 10;
+// var myArr = [23, 45, "hello", null, true, variable];
+// var last = myArr.pop();
+// 
+// console.log(myArr);
+// 
+// myArr[2] = "world";
+// myArr.pop();
+// myArr.push("hello");
+// myArr.shift();
+// myArr.unshift("bonjour");
+// 
+// myArr.map((i, j)=>{
+//     // console.log(i);
+//     // console.log("index: " + j + ", value: " + i);
+//     console.log(`index: ${j}, value: ${i}`);
+// });
+
+// console.log(myArr.some((i)=>(i=true)));
+
+
+// console.log(myArr[5][1]);
+// console.log(myArr[6]);
+// console.log(myArr);
+// console.log(last);
